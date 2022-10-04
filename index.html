@@ -84,7 +84,7 @@
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
             ВАШОГО БІЗНЕСУ
           </h1>
-          <button type="button" class="button-title">Замовити послугу</button>
+          <button  type="button" class="button-title" [data-modal-open]>Замовити послугу</button>
         </div>
       </section>
       <section class="section-studio">
@@ -145,29 +145,44 @@
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="list list-work">
-            <li class="list list-work-item">
+            <li class="list list-work-item"> 
+              <div class="work-img">
               <img
                 src="./images/img.jpg"
                 alt="компютер"
                 width="370"
                 class="img"
               />
+              <div class="box-title-img">
+                <h3 class="title-img">ДЕКСТОПНІ ДОДАТКИ</h3>
+              </div>
+            </div>
             </li>
-            <li class="list list-work-item">
+            <li class="list list-work-item"> 
+              <div class="work-img">
               <img
                 src="./images/img1.jpg"
                 alt="телефон"
                 width="370"
                 class="img"
               />
+              <div class="box-title-img">
+                <h3 class="title-img">МОБІЛЬНІ ДОДАТКИ</h3>
+              </div>
+            </div>
             </li>
             <li class="list list-work-item">
+               <div class="work-img">
               <img
                 src="./images/img2.jpg"
                 alt="планшет"
                 width="370"
                 class="img"
               />
+              <div class="box-title-img">
+                <h3 class="title-img">ДИЗАЙНЕРСЬКІ РІШЕННЯ</h3>
+              </div>
+            </div>
             </li>
           </ul>
         </div>
@@ -449,7 +464,7 @@
           </ul>
         </address>
       </div>
-      <div > 
+      <div class="footer-box-icon" > 
         <b class="title-icon">ПРИЄДНУЙТЕСЬ</b>
         <ul class="list list-footer-icon">
           <li class="li-footer-icon">
@@ -484,5 +499,6 @@
       </div>
       </div>
     </footer>
+
   </body>
 </html>
